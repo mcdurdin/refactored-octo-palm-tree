@@ -21,8 +21,9 @@ body:
 
   - type: textarea
     id: description
-    label: "A clear and concise description of what the bug is"
-    required: true
+    attributes:
+      label: "A clear and concise description of what the bug is"
+      required: true
 
   - type: markdown
     attributes:
@@ -34,10 +35,11 @@ body:
 
   - type: textarea
     id: repro
-    label: "Steps to reproduce the behavior"
-    placeholder: |
-      1. Go to '...'
-      2. Click on '....'
-      3. Scroll down to '....'
-      4. See error
+    attributes:
+      label: "Steps to reproduce the behavior"
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
 
