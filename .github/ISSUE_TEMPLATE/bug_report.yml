@@ -16,3 +16,28 @@ body:
 
         You may also wish to discuss your bug report with the Keyman community at:
           https://community.software.sil.org/c/keyman
+
+        ### Desrcibe the bug
+
+  - type: textarea
+    id: description
+    label: "A clear and concise description of what the bug is"
+    required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Reproduce the bug
+
+        Write up the steps you took which triggered the bug. Be as precise as possible;
+        you can paste screenshots and/or videos if you wish. For example,
+
+  - type: textarea
+    id: repro
+    label: "Steps to reproduce the behavior"
+    placeholder: |
+      1. Go to '...'
+      2. Click on '....'
+      3. Scroll down to '....'
+      4. See error
+
